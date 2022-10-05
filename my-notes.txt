@@ -1,9 +1,0 @@
-# TODO:
-- update the tab icon and tab description
-- add github (and other) links on top
-- replace Project Name, Docs, and Getting started
-
-# Useful links:
-https://icongr.am/octicons
-https://mojee.io/emojis/?category=8
-
