@@ -1,3 +1,3 @@
 # My personal Homepage
 
-Please visit https://vladimirfokow.github.io
+Visit https://vladimirfokow.github.io
