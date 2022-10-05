@@ -1,6 +1,3 @@
-# VladimirFokow.github.io
-Homepage
+# My personal Homepage
 
-- this
-- is
-- a markdown file
+Please visit https://vladimirfokow.github.io
