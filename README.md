@@ -1,5 +1,6 @@
 ---
 label: About Me
+order: 1000
 icon: person
 ---
 
