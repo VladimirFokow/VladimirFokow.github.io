@@ -45,3 +45,5 @@ pyenv local [version-number]        - в конкретной папке, где
 ---
 
 *to be continued...*
+
+---
