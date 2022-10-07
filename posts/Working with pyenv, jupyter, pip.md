@@ -1,5 +1,7 @@
 ---
 label: Working with pyenv, pip, Jupyter (on MacOs)
+visibility: hidden  # work in progress
+
 ---
 
 # Working with pyenv, pip, Jupyter
