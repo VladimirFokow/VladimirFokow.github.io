@@ -21,3 +21,12 @@ I am a bachelor's student at KPI University 🇺🇦 studying *Information syste
 
 My strong interests are in **A.I.**, **Data Science**, and **Robotics**.
 
+
+---
+
+Typing speed:
+
+<a href="https://data.typeracer.com/pit/profile?user=vladimir_fokow&ref=badge" target="_top">
+<img src="https://data.typeracer.com/misc/badge?user=vladimir_fokow" border="0" alt="TypeRacer.com scorecard for user vladimir_fokow" />
+</a>
+
