@@ -9,24 +9,24 @@
     <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>Working with pyenv, pip, Jupyter</title>
-    <meta name="title" content="Working with pyenv, pip, Jupyter">
-    <meta name="description" content="Here I will share my personal notes which I find very useful when working with pyenv, pip, and Jupyter on MacOS." />
+    <title>Some useful links and skills:</title>
+    <meta name="title" content="Some useful links and skills:">
+    <meta name="description" content="Animation in Jupyter Notebooks (with matplotlib / seaborn): https://jckantor.github.io/CBE30338/A.03-Animation-in-Jupyter-Notebooks.html" />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://vladimirfokow.github.io/posts/working-with-pyenv-jupyter-pip/" />
+    <link rel="canonical" href="https://vladimirfokow.github.io/posts/useful-information/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://vladimirfokow.github.io/posts/working-with-pyenv-jupyter-pip/">
-    <meta property="og:title" content="Working with pyenv, pip, Jupyter">
-    <meta property="og:description" content="Here I will share my personal notes which I find very useful when working with pyenv, pip, and Jupyter on MacOS.">
+    <meta property="og:url" content="https://vladimirfokow.github.io/posts/useful-information/">
+    <meta property="og:title" content="Some useful links and skills:">
+    <meta property="og:description" content="Animation in Jupyter Notebooks (with matplotlib / seaborn): https://jckantor.github.io/CBE30338/A.03-Animation-in-Jupyter-Notebooks.html">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://vladimirfokow.github.io/posts/working-with-pyenv-jupyter-pip/">
-    <meta property="twitter:title" content="Working with pyenv, pip, Jupyter">
-    <meta property="twitter:description" content="Here I will share my personal notes which I find very useful when working with pyenv, pip, and Jupyter on MacOS.">
+    <meta property="twitter:url" content="https://vladimirfokow.github.io/posts/useful-information/">
+    <meta property="twitter:title" content="Some useful links and skills:">
+    <meta property="twitter:description" content="Animation in Jupyter Notebooks (with matplotlib / seaborn): https://jckantor.github.io/CBE30338/A.03-Animation-in-Jupyter-Notebooks.html">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -201,38 +201,16 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="working-with-pyenv-pip-jupyter" class="break-words">
+<doc-anchor-target id="some-useful-links-and-skills" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#working-with-pyenv-pip-jupyter">#</doc-anchor-trigger>
-        <span>Working with pyenv, pip, Jupyter</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#some-useful-links-and-skills">#</doc-anchor-trigger>
+        <span>Some useful links and skills:</span>
     </h1>
 </doc-anchor-target>
-<p>Here I will share my personal notes which I find very useful when working with pyenv, pip, and Jupyter on MacOS.</p>
-<p><em>Note: this post is a work in progress</em></p>
-<hr />
-<p><strong>Managing Multiple Python Versions With pyenv:</strong></p>
-<p><a href="https://realpython.com/intro-to-pyenv/">https://realpython.com/intro-to-pyenv/</a></p>
-<hr />
-<p>Посмотреть доступные версии python для установки (отфильтрованные grep-ом)
-pyenv install --list | grep &quot; 3.[678]&quot;
-pyenv install -l | grep &#x27;^  3.10&#x27;</p>
-<p>Посмотреть установленные версии python
-pyenv versions</p>
-<p>Установить версию python
-pyenv install <version></p>
-<p>Удалить версию python
-!!!Но версия может ведь быть необходима для какого-то виртуального окружения!!!
-!!!Нельзя удалять системную версию - она нужна компьютеру!!!
-(виртуальное окружение удаляется так же)
-pyenv uninstall 3.7.0</p>
-<p>Если написать [version-number], то эта версия установится, иначе просто покажется текущая установленная
-(можно несколько версий, но как только первая находится, остальные будут проигнорены)
-pyenv global [version-number]       - глобальная
-pyenv local [version-number]        - в конкретной папке, где произведена команда
-(ещё есть уровень shell)</p>
-<hr />
-<p><em>to be continued...</em></p>
-<hr />
+<ul>
+<li><strong>Animation in Jupyter Notebooks (with matplotlib / seaborn):</strong> <br />
+<a href="https://jckantor.github.io/CBE30338/A.03-Animation-in-Jupyter-Notebooks.html">https://jckantor.github.io/CBE30338/A.03-Animation-in-Jupyter-Notebooks.html</a></li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->
@@ -240,6 +218,20 @@ pyenv local [version-number]        - в конкретной папке, где
                             </div>
                             <footer class="clear-both">
                             
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../posts/about-quantum-computing/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Learning about quantum computing</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                    </div>
+                                </nav>
                             </footer>
                         </main>
                 
@@ -288,6 +280,6 @@ pyenv local [version-number]        - в конкретной папке, где
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Working with pyenv, pip, Jupyter (on MacOs)", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Useful information", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
